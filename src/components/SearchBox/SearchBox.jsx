@@ -13,7 +13,6 @@ export default function SearchBox() {
         <div>
             <p>Find contacts by name </p>
                 <input className={css.input} type="text" value={filter} onChange={handleFilterChange}/>
-           
         </div>
     )
 };
